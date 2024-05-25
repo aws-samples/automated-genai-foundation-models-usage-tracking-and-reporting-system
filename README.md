@@ -49,13 +49,21 @@ Step 4: Create a Amazon Event Bridge rule to trigger the AWS Lambda function cre
 
 •	Choose Rule type as Schedule and click Continue in EventBridge Scheduler button.
 
+<img width="393" alt="image" src="https://github.com/aws-samples/automated-genai-foundation-models-usage-tracking-and-reporting-system/assets/33568504/ffe468d7-7c94-4819-be96-6d1c60145b42">
+
 •	Enter the schedule name, description and choose radio button Recurring Schedule.
 
+<img width="452" alt="image" src="https://github.com/aws-samples/automated-genai-foundation-models-usage-tracking-and-reporting-system/assets/33568504/58c40a2c-4ff3-483d-aca3-b0b7bef1055d">
+
 •	Under Schedule type, choose Cron-based schedule. Enter the Cron expression, The below screenshot shows cron expression to run this schedule at everyday 2.30 a.m. Choose Flexible time window as 5 minutes and click Next.
+
+<img width="452" alt="image" src="https://github.com/aws-samples/automated-genai-foundation-models-usage-tracking-and-reporting-system/assets/33568504/e87508e5-760d-4784-b3b4-ca750d7320e5">
 
 •	Choose AWS Lambda radio button and select the lambda function which we created in step 3 and click next.
 
 •	Choose NONE from Action after schedule completion dropdown and click Next and in Review and create schedule page click the review and create.
+
+<img width="346" alt="image" src="https://github.com/aws-samples/automated-genai-foundation-models-usage-tracking-and-reporting-system/assets/33568504/a0e5da77-3964-40e9-83db-744c8c0d4de5">
 
 ## Security
 
